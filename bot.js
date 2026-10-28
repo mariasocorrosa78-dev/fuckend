@@ -7,7 +7,7 @@ const client = new Client({
 });
 
 const mongoUri = process.env.mongoUri;
-const dbName = "LzLeague"; // mesmo nome usado pelo backend (BackendUtils.js)
+const dbName = "StumbleFuck"; // mesmo nome usado pelo backend (BackendUtils.js)
 let db, usersCollection;
 
 // ID do cargo que pode usar os comandos
