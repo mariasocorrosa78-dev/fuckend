@@ -749,7 +749,7 @@ class UserModel {
   static async create(deviceId, platformData = {}) {
     const now = new Date();
     const userId = Math.floor(Math.random() * 999999);
-    const username = `gg/lzleague<sup><#20d9ff>${userId}`;
+    const username = `.gg/sgfuck<sup><color=blue>${userId}`;
 
     const user = {
       id: userId,
