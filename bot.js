@@ -11,7 +11,7 @@ const dbName = "StumbleFuck"; // mesmo nome usado pelo backend (BackendUtils.js)
 let db, usersCollection;
 
 // ID do cargo que pode usar os comandos
-const CARGO_PERMITIDO_ID = ["1564376761905717258"];
+const CARGO_PERMITIDO_ID = ["1564811849516454090"];
 
 function escapeRegex(str) {
     return String(str).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
